@@ -1,0 +1,23 @@
+{
+  "name": "@tenzyu/tsconfig",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "*": "prettier --write --cache --ignore-unknown",
+    "!(package).json": "sort-json",
+    "package.json": "sort-package-json"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.3.0",
+    "@commitlint/config-conventional": "^17.3.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^13.1.0",
+    "prettier": "^2.8.1",
+    "sort-json": "^2.0.1",
+    "sort-package-json": "^2.1.0"
+  }
+}
