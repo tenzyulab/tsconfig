@@ -8,10 +8,6 @@
     "base.json",
     "lib.json"
   ],
-  "scripts": {
-    "preinstall": "npx only-allow pnpm",
-    "prepare": "husky install"
-  },
   "lint-staged": {
     "*": "prettier --write --cache --ignore-unknown",
     "!(package).json": "sort-json",
@@ -25,5 +21,6 @@
     "prettier": "^2.8.1",
     "sort-json": "^2.0.1",
     "sort-package-json": "^2.1.0"
-  }
+  },
+  "packageManager": "pnpm@7.18.1"
 }
