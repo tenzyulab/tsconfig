@@ -2,6 +2,10 @@
   "name": "@tenzyu/tsconfig",
   "version": "0.1.0",
   "private": true,
+  "files": [
+    "base.json",
+    "lib.json"
+  ],
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "prepare": "husky install"
