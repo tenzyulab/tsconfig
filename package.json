@@ -1,6 +1,6 @@
 {
   "name": "@tenzyu/tsconfig",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "repository": "github:tenzyu/tsconfig",
   "license": "MIT",
   "author": "Tenzyu Masuda",
