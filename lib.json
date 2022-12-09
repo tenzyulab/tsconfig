@@ -5,5 +5,5 @@
     "declarationMap": true,
     "sourceMap": true
   },
-  "extends": "./base.jsonc"
+  "extends": "./base.json"
 }
